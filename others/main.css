@@ -1,0 +1,73 @@
+
+#banner{
+	height:140px;
+	background:url(../img/index.png) no-repeat center;
+	background-size:cover;
+	margin:0px -10px;
+	padding:0px;
+}
+
+.main-btn{
+	width:60px;
+	height:60px;
+	margin:0 auto;
+	
+}
+.main-btn a{
+	display:block;
+	width:60px; 
+	height:60px; 
+	border-radius:60px;
+	-webkit-border-radius: 60px;
+	border:#63B2D9 0px solid; 
+	
+}
+.main-btn .text {
+	position:relative;
+}
+.main-btn .text .event{
+	width:8px;
+	height:8px;
+	-webkit-border-radius: 4px;
+	position:absolute;
+	top:-4px;
+	right:-4px;;
+	background:black;
+}
+.main-btn#main_intro a{
+	background:url(../img/1.png) no-repeat center;
+	background-size:70px 70px;
+}
+.main-btn#main_order a{
+	background:url(../img/2.png) no-repeat center;
+	background-size:70px 70px;
+}
+.main-btn#main_expert a{
+	background:url(../img/3.png) no-repeat center;
+	background-size:70px 70px;
+}
+.main-btn#main_hospital a{
+	background:url(../img/4.png) no-repeat center;
+	background-size:65px 65px;
+}
+.main-btn#main_exam a{
+	background:url(../img/5.png) no-repeat center;
+	background-size:70px 70px;
+}
+.main-btn#main_test a{
+	background:url(../img/6.png) no-repeat center;
+	background-size:70px 70px;
+}
+
+
+.main-btn a:hover{
+	background-color:#fff !important;
+}
+.main-btn .main-btn-text{
+	display:block;
+	margin-top:10px;
+	line-height:15px;
+	text-align:center;
+	color:#bbb;
+}
+

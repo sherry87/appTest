@@ -1,0 +1,9 @@
+﻿#afui .stinputbox{ text-align:left; height:40px; width:100%; background:#edebec; margin-bottom:10px; border:1px solid #d9d9d9; border-radius:5px;}
+#afui .stinputbox:before{ left:25px; line-height:36px; font-size:1.2em;}
+#afui .stinputbox.icon-male:before{font-size:1.7em;}
+#afui .stinputbox input[type="text"],#afui .stinputbox input[type="password"],#afui .stinputbox input[type="number"]{ width:80%; border:0; background:none; margin:0; padding-left:60px;}
+#afui .stinputbox input[type="radio"] + label{ width:25%; float:none; margin-left:3%;}
+#afui .stinputbox input[type="radio"]:not(.toggle) + label:before{ margin-left:0;}
+#afui .stinputbox input[type="radio"]:checked + label:before{}
+#afui .stinputbox.icon-male{ text-align:left; padding-left:0px;}
+.ureg_box{width:88%; margin:0 auto; margin-top:15px;}
