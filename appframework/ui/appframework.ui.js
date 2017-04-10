@@ -4232,6 +4232,7 @@
 
                 $tmp.replaceClass("panel", "afScrollPanel");
 
+				$tmp.css("background","red");
                 scrollEl.appendChild(tmp);
 
                 container.appendChild(scrollEl);

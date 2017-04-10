@@ -1058,7 +1058,7 @@
                 $tmp.removeAttr("data-footer data-aside data-nav data-header selected data-load data-unload data-tab data-crc title data-title");
 
                 $tmp.replaceClass("panel", "afScrollPanel");
-
+ $tmp.css("background", "red");
                 scrollEl.appendChild(tmp);
 
                 container.appendChild(scrollEl);
